@@ -1,6 +1,6 @@
 # Shopify Discount Codes for NFT Holders
 
-This template allows you to generate discount codes for your Shopify store to holders of your NFT Collection using [Auth](https://portal.web3sdk.io/auth).
+This template allows you to generate discount codes for your Shopify store to holders of your NFT Collection using [Auth](https://docs.web3sdk.io/auth).
 
 ## Using This Repo
 
@@ -59,7 +59,7 @@ import { Web3sdkioAuth } from "@web3sdkio/auth/next";
 export const { Web3sdkioAuthHandler, getUser } = Web3sdkioAuth({
   // Using environment variables to secure your private key is a security vulnerability.
   // Learn how to store your private key securely:
-  // https://portal.web3sdk.io/sdk/set-up-the-sdk/securing-your-private-key
+  // https://docs.web3sdk.io/sdk/set-up-the-sdk/securing-your-private-key
   privateKey: process.env.ADMIN_PRIVATE_KEY || "",
   // Set this to your domain to prevent signature malleability attacks.
   domain: "example.com",
@@ -191,4 +191,4 @@ Finally, if they _do_ own an NFT, we can make a `POST` request to Shopify to gen
 
 ## Join our Discord!
 
-For any questions or suggestions, join our discord at [https://discord.gg/web3sdkio](https://discord.gg/web3sdkio).
+For any questions or suggestions, join our discord at [https://discord.gg/n33UhsfUKB](https://discord.gg/n33UhsfUKB).
